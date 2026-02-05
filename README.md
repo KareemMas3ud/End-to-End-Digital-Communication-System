@@ -49,26 +49,9 @@ This ensures robust bit detection even in challenging SNR environments.
 
 ## 🏗️ System Architecture
 
-The communication chain consists of **8 distinct stages**:
+![System Architecture](Report/System%20Architecture.png)
 
-```mermaid
-flowchart LR
-    A[Input Audio] --> B[A-law Compressor]
-    B --> C[Uniform Quantizer]
-    C --> D[Binary Encoder]
-    D --> E[Polar NRZ Modulator]
-    E --> F[AWGN Channel]
-    F --> G[Adaptive Pulse Detector]
-    G --> H[Binary Decoder]
-    H --> I[A-law Expander]
-    I --> J[Output Audio]
-    
-    style A fill:#e1f5ff
-    style J fill:#e1f5ff
-    style F fill:#ffe1e1
-    style B fill:#fff4e1
-    style I fill:#fff4e1
-```
+*Complete End-to-End Digital Communication Chain with 8 processing stages*
 
 ### Stage Breakdown
 
