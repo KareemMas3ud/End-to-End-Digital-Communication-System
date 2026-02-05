@@ -231,7 +231,7 @@ The system generates a **3-panel figure** for comprehensive analysis:
 - **Student Name**: Kareem Mohammed  
 - **Student ID**: 238253  
 - **Course**: Digital Communications (1)  
-- **Institution**: [University Name]  
+- **Institution**: The British University in Egypt 
 - **Academic Year**: 2025-2026
 
 ---
